@@ -39,7 +39,6 @@ header .container {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 1rem;
 }
 
 .main-movie .description {
@@ -78,3 +77,12 @@ header .container {
 .btn i {
     margin-right: 5px;
 }
+
+.container {
+    margin-left: 20px;
+}
+
+.main-movie .container {
+    width: 70%;
+}
+
