@@ -1,10 +1,7 @@
-header .container {
-    border: solid 1px #CCC;
-}
-
 body {
     background: var(--black);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .logo {
@@ -12,7 +9,7 @@ header .logo {
     color: var(--red);
     font-family: 'Arial Black';
     font-size: 2rem;
-    text-shadow: 1px 1px 1px rgb(211, 75, 75);
+    text-shadow: 1px 1px 1px rgb(245, 0, 0);
 }
 
 header nav a {
@@ -30,4 +27,30 @@ header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+/*filme principal*/
+.main-movie {
+    font-size: 1rem;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)100%), url('./../assets/images/sobrenatural-bg.jpg');
+    min-height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 1rem;
+}
+
+.main-movie .description {
+    margin-bottom: 90px;
+}
+
+.title {
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px black;
+}
+
+.description {
+    text-shadow: 1px 1px 1px black;
 }
